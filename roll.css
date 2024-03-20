@@ -1,0 +1,72 @@
+body{
+    background: linear-gradient(90deg, rgb(131, 232, 236) 0%, rgb(84, 177, 130) 35%, rgb(158, 221, 95) 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    border-radius: 20px;
+    color: white;
+    font-size: 22px;
+    margin-bottom: 10%;
+    box-shadow: 10px 5px 5px black;
+}
+
+h1{
+    margin-bottom: 20px;
+    font-style:oblique;
+    color: rgb(147, 232, 61);
+}
+
+.butt{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px;
+    width: 95%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    border-radius: 20px;
+    margin-top: 8%;
+    background: lightskyblue;
+    color: black;
+    margin-left: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+
+
+.butt:hover{
+    background: lightblue;
+}
+
+.input{
+    outline: unset;
+    padding: 20px;
+    width: 200px;
+    border: 1px solid cornflowerblue;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.result{
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 28px;
+    font-size: 40px;
+    font-style:oblique;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.maiorNumero{
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 28px;
+    font-size: 25px;
+    font-style:oblique;
+    color: rgba(0, 0, 0, 0.8);
+}
